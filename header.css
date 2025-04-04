@@ -1,11 +1,5 @@
-body {
-    margin: 0;
-    background: #1e1d1d;
-    letter-spacing: 1px;
-    word-spacing: 5px;
-}
-
-header {
+header
+{
     display: flex;
     background: black;
     height: 250px;
@@ -21,86 +15,6 @@ header p {
     font-size: 69px;
     margin: 0;
     padding: 0 20px;
-}
-
-.mainBody {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-family: "Orbitron", sans-serif;
-    font-size: 30px;
-    align-items: center;
-    padding: 30px 5%;
-    margin: auto;
-    text-align: center;
-    box-sizing: border-box;
-    max-width: 1200px;
-    gap: 30px;
-}
-
-.startButton
-{
-    padding: 15px 30px;
-    background: linear-gradient(to right, #4a00e0, #8e2de2);
-    color: white;
-    font-family: "Orbitron", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    width: fit-content;
-}
-
-.startButton:hover
-{
-    transition-duration: 0.5s;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 768px) {
-    header {
-        height: 180px;
-    }
-
-    header p {
-        font-size: 42px;
-    }
-
-    .mainBody {
-        font-size: 22px;
-        padding: 20px 8%;
-        gap: 20px;
-    }
-
-    .cta-button {
-        font-size: 20px;
-        padding: 12px 25px;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        height: 140px;
-    }
-
-    header p {
-        font-size: 32px;
-    }
-
-    .mainBody {
-        font-size: 18px;
-        padding: 15px 10%;
-        gap: 15px;
-    }
-
-    .cta-button {
-        font-size: 18px;
-        padding: 10px 20px;
-    }
+    word-spacing: 5px;
 }

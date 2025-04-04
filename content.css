@@ -4,6 +4,12 @@ body
     background: #1e1d1d;
     letter-spacing: 1px;
     word-spacing: 5px;
+
+}
+main
+
+{
+    min-height: 80vh;
 }
 
 .mainBody {

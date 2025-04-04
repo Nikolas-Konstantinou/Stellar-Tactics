@@ -18,3 +18,24 @@ header p {
     letter-spacing: 1px;
     word-spacing: 5px;
 }
+
+footer
+{
+    display: flex;
+    background: black;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-top: white 2px solid;
+}
+
+footer p {
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-size: 69px;
+    margin: 0;
+    padding: 0 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="content.css">
+  <script src="js.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
@@ -17,15 +18,29 @@
 <body>
 
 <header>
-  <p>Stellar Tactics</p>
+  <p>STELLAR TACTICS</p>
 </header>
 
 <main>
 
+  <div class="formContainer">
+    <form action="#" method="post">
+      <label for="playerName">Commander Name:</label>
+      <input type="text" id="playerName" name="playerName" required>
+      <button type="submit">Begin Mission</button>
+    </form>
+  </div>
+
+  <div class="loadingContainer" id="loadingScreen" style="display: none;">
+    <div class="loader"></div>
+    <p>Establishing uplink to command...</p>
+  </div>
+
 </main>
 
+
 <footer>
-  <p>Stellar Tactics</p>
+  <p>STELLAR TACTICS</p>
 </footer>
 
 </body>
